@@ -24,3 +24,7 @@ sudo chmod 777 /usr/CommentsLogByMySQL
 wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/auto_get.sh
 wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/auto_get.py
 wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/comments.py
+wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/CommentsLogByMySQL.sh
+wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/check.py
+
+sudo chmod 777 /usr/CommentsLogByMySQL/*
