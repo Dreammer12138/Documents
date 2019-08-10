@@ -18,5 +18,6 @@ wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMyS
 wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/comments.py
 wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/CommentsLogByMySQL.sh
 wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/check.py
+wget -P /usr/CommentsLogByMySQL https://dreammer12138.github.io/CommentsLogByMySQL/config.json
 
 sudo chmod 777 /usr/CommentsLogByMySQL/*
