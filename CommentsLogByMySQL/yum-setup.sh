@@ -6,6 +6,7 @@ sudo yum -y install mysql-client
 
 #安装Python3和pip/pip3
 sudo yum -y install epel-release
+sudo yum -y install jq
 sudo yum -y install python34
 sudo yum -y install python-pip
 sudo yum clean all
