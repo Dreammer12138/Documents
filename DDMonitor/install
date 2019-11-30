@@ -2,4 +2,4 @@
 
 cd /usr
 git clone https://github.com/Dreammer12138/DDMonitor.git
-sudo chmod a+x /usr/DDMonitor
+sudo chmod -R a+x /usr/DDMonitor
