@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>DDMonitor · GitBook</title>
+        <title>结语 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -58,7 +58,7 @@
 
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="software/CommentsLogByMySQL.html" />
     
 
     </head>
@@ -92,7 +92,7 @@
                 <a href="./">
             
                     
-                    前言
+                    综述
             
                 </a>
             
@@ -100,12 +100,57 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="DDMonitor.html">
+        <li class="chapter " data-level="1.2" data-path="software/">
             
-                <a href="DDMonitor.html">
+                <a href="software/">
+            
+                    
+                    软件目录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="software/DDMonitor.html">
+            
+                <a href="software/DDMonitor.html">
             
                     
                     DDMonitor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="software/CommentsLogByMySQL.html">
+            
+                <a href="software/CommentsLogByMySQL.html">
+            
+                    
+                    CommentsLogByMySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="END.html">
+            
+                <a href="END.html">
+            
+                    
+                    结语
             
                 </a>
             
@@ -143,7 +188,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >DDMonitor</a>
+        <a href="." >结语</a>
     </h1>
 </div>
 
@@ -158,36 +203,8 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="ddmonitor">DDMonitor</h1>
-<h2 id="&#x76F4;&#x64AD;&#x5F55;&#x64AD;&#x811A;&#x672C;--">&#x76F4;&#x64AD;&#x5F55;&#x64AD;&#x811A;&#x672C;  </h2>
-<h4 id="&#x9700;&#x8981;streamlinkffmpeg&#x652F;&#x6301;&#x3002;">&#x9700;&#x8981;streamlink+ffmpeg&#x652F;&#x6301;&#x3002;</h4>
-<h4 id="&#x4EE5;&#x4E0B;&#x5B89;&#x88C5;&#x65B9;&#x6CD5;&#x4EC5;&#x9002;&#x7528;&#x4E8E;linux&#x7CFB;&#x7EDF;&#xFF0C;windows&#x7CFB;&#x7EDF;&#x8BF7;&#x81EA;&#x884C;&#x89E3;&#x51B3;">&#x4EE5;&#x4E0B;&#x5B89;&#x88C5;&#x65B9;&#x6CD5;&#x4EC5;&#x9002;&#x7528;&#x4E8E;Linux&#x7CFB;&#x7EDF;&#xFF0C;Windows&#x7CFB;&#x7EDF;&#x8BF7;&#x81EA;&#x884C;&#x89E3;&#x51B3;</h4>
-<blockquote>
-<p>ffmpeg<br><a href="http://www.ffmpeg.org/download.html" target="_blank">http://www.ffmpeg.org/download.html</a><br>streamlink<br><a href="https://streamlink.github.io/" target="_blank">https://streamlink.github.io/</a>  </p>
-</blockquote>
-<p>&#x5B89;&#x88C5;&#xFF1A;</p>
-<pre><code>$ sudo wget https://Dreammer12138.github.io/Documents/DDMonitor/install
-$ sudo ./install
-</code></pre><p>&#x542F;&#x52A8;&#xFF1A;
-<code>$ ./Monitor</code><br>&#x66F4;&#x65B0;&#xFF1A;
-<code>$ ./Monitor --upgrade</code><br>&#x66F4;&#x6539;&#x76D1;&#x89C6;&#x76F4;&#x64AD;&#x95F4;&#xFF1A; </p>
-<pre><code>&#x76F4;&#x64AD;&#x95F4;&#x4FE1;&#x606F;&#x5728;roomid.json&#x6587;&#x4EF6;&#x4E2D;&#x50A8;&#x5B58;&#xFF0C;&#x4FEE;&#x6539;&#x524D;&#x8BF7;&#x53CA;&#x65F6;&#x8FDB;&#x884C;&#x5907;&#x4EFD;  
-$ sudo vim /usr/DDMonitor/roomid.json
-&#x5C06;&#x6587;&#x4EF6;&#x4E2D;&#x7684;uid&#x6539;&#x6210;&#x76F4;&#x64AD;&#x95F4;&#x53F7;&#x7801;&#xFF0C;nickname&#x6539;&#x6210;&#x4E3B;&#x64AD;ID  
-{
-    &quot;user&quot;: [{
-        &quot;uid&quot;: &quot;&quot;,        &lt;-&#x8FD9;&#x91CC;&#x5728;&#x53CC;&#x5F15;&#x53F7;&#x4E2D;&#x586B;&#x5199;&#x76F4;&#x64AD;&#x95F4;&#x53F7;&#x7801;
-        &quot;nickname&quot;: &quot;&quot;        &lt;-&#x8FD9;&#x91CC;&#x5728;&#x53CC;&#x5F15;&#x53F7;&#x4E2D;&#x586B;&#x5199;&#x4E3B;&#x64AD;&#x7684;&#xFF29;&#xFF24;
-    }]
-}
-&#x4FDD;&#x5B58;&#x9000;&#x51FA;&#xFF0C;&#x542F;&#x52A8;Monitor
-</code></pre><h2 id="monitot-&#x53C2;&#x6570;">Monitot &#x53C2;&#x6570;</h2>
-<p>&#x5728;Monitor&#x547D;&#x4EE4;&#x540E;&#x9762;&#x6DFB;&#x52A0;&#x53C2;&#x6570;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x4E00;&#x4E9B;&#x9ED8;&#x8BA4;&#x8BBE;&#x7F6E;</p>
-<ul>
-<li><code>-l / --log path</code> &#x8BBE;&#x7F6E;log&#x7684;&#x50A8;&#x5B58;&#x4F4D;&#x7F6E;  </li>
-<li><code>--upgrade</code> &#x66F4;&#x65B0;  </li>
-</ul>
-<h4 id="&#x5EFA;&#x8BAE;&#x5C06;&#x8DEF;&#x5F84;&#x6DFB;&#x52A0;&#x5230;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x4E2D;">&#x5EFA;&#x8BAE;&#x5C06;&#x8DEF;&#x5F84;&#x6DFB;&#x52A0;&#x5230;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x4E2D;</h4>
+                                <h1 id="&#x7ED3;&#x8BED;">&#x7ED3;&#x8BED;</h1>
+<p>&#x6CA1;&#x4E86;</p>
 
                                 
                                 </section>
@@ -215,7 +232,7 @@ $ sudo vim /usr/DDMonitor/roomid.json
 
             
                 
-                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 前言">
+                <a href="software/CommentsLogByMySQL.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: CommentsLogByMySQL">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -227,7 +244,7 @@ $ sudo vim /usr/DDMonitor/roomid.json
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"DDMonitor","level":"1.2","depth":1,"previous":{"title":"前言","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"DDMonitor.md","mtime":"2019-12-16T08:18:07.323Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-16T08:19:39.370Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"结语","level":"1.3","depth":1,"previous":{"title":"CommentsLogByMySQL","level":"1.2.2","depth":2,"path":"software/CommentsLogByMySQL.md","ref":"software/CommentsLogByMySQL.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"END.md","mtime":"2019-12-16T13:16:17.125Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-16T13:27:49.278Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -235,6 +252,10 @@ $ sudo vim /usr/DDMonitor/roomid.json
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
